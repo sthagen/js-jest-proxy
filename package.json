@@ -1,1 +1,6 @@
-
+{
+  "description": "Experimental third party proxy of jest.",
+  "repo": "https://github.com/sthagen/js-jest-proxy",
+  "licsense": "UNLICENSED",
+  "jest": {}
+}
