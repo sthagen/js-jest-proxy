@@ -29,4 +29,4 @@ $ npm test
 
 Experimental.
 
-**Note**: The default branch is default.
+**Note**: The default branch is `default`.
