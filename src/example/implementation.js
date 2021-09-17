@@ -7,8 +7,6 @@ function increment(input) {
   return input + 1;
 }
 
-if (module) {
-  module.exports = {
-    increment,
-  }
+module.exports = {
+  increment,
 }
