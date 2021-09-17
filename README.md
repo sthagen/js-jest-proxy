@@ -2,7 +2,7 @@
 
 Experimental third party proxy of jest.
 
-## Install / Use
+## Install
 
 This is a helper repository for bootstrapping projects that do use javascript but do not yet employ `package.json` mechanisms or similar.
 
@@ -19,10 +19,11 @@ Clone the repo, copy your unpackaged source tree below into the src folder and e
 ```bash
 $ npm install
 ```
+## Use
 
 For test execution you can call:
 ```bash
-$ npm test
+$ npm test -- --passWithNoTests
 ```
 
 ## Status
