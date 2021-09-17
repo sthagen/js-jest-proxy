@@ -4,7 +4,7 @@ Experimental third party proxy of jest.
 
 ## Install
 
-This is a helper repository for bootstrapping projects that do use javascript but do not yet employ `package.json` mechanisms or similar.
+This is a helper repository for bootstrapping projects that do use javascript and do not yet employ `package.json` mechanisms or similar.
 
 ### Existing packaged sources
 
