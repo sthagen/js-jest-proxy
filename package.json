@@ -1,6 +1,28 @@
 {
   "description": "Experimental third party proxy of jest.",
-  "repo": "https://github.com/sthagen/js-jest-proxy",
   "licsense": "UNLICENSED",
-  "jest": {}
+  "repository": "https://github.com/sthagen/js-jest-proxy",
+  "jest": {
+      "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/vendor/**"
+    ],
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover"
+    ],
+    "verbose": true
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
 }
